@@ -21,7 +21,7 @@ public class CalcolatriceActivity extends AppCompatActivity {
             }
         });
 
-        //catamarano
+        //asdfghjklòlkjhg
 
         nikon.setOnClickListener(new View.OnClickListener(){
             @Override
