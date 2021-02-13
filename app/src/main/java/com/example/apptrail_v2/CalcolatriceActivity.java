@@ -21,7 +21,6 @@ public class CalcolatriceActivity extends AppCompatActivity {
             }
         });
 
-        //asdfghjklòlkjhg
 
         nikon.setOnClickListener(new View.OnClickListener(){
             @Override
