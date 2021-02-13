@@ -14,16 +14,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
     public void guida(View view)
-
     {
         Intent intent = new Intent(this, GuidaActivity.class);
         startActivity(intent);
     }
 
-    public void calcolatrice(View view)
-
+    public void calcolatrice0(View view)
     {
-        Intent intent = new Intent(this, CalcolatriceActivity.class);
+        Intent intent = new Intent(this, CalcolatriceActivity0.class);
         startActivity(intent);
     }
 }

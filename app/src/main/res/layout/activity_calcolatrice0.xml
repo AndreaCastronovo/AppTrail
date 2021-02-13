@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#303030"
-    tools:context=".CalcolatriceActivity">
+    tools:context=".CalcolatriceActivity0">
+
 
 
     <!--    Activity Title-->
@@ -22,7 +22,7 @@
             android:layout_width="match_parent"
             android:layout_height="32dp"
             android:layout_centerInParent="true"
-            android:text="SELEZIONA MARCA FOTOCAMERA"
+            android:text="SELEZIONA FORMATO CAMERA"
             android:textAlignment="center"
             android:textSize="20dp"
             android:textStyle="bold"
@@ -30,28 +30,24 @@
     </androidx.cardview.widget.CardView>
 
 
-
-    <!--    primo bottone   (canon) -->
-
-
-
+    <!--    aps-c options-->
 
     <androidx.cardview.widget.CardView
         android:layout_width="233dp"
         android:layout_height="129dp"
         android:layout_centerInParent="true"
         android:backgroundTint="#707070"
-        android:translationY="40dp"
+        android:translationY="0dp"
         app:cardCornerRadius="12dp"
         app:cardElevation="6dp">
 
         <ImageButton
-            android:id="@+id/canon"
+            android:id="@+id/apsc"
             android:layout_width="276dp"
             android:layout_height="144dp"
             android:backgroundTint="#707070"
             android:scaleType="centerInside"
-            android:src="@drawable/canon"
+            android:onClick="calcolatrice"
             android:translationX="-21dp"
             android:translationY="-10dp" />
     </androidx.cardview.widget.CardView>
@@ -59,69 +55,27 @@
 
 
 
-
-    <!--    secondo bottone  (nikon)-->
-
-
-
+    <!--    full frame option-->
 
     <androidx.cardview.widget.CardView
         android:layout_width="233dp"
         android:layout_height="129dp"
         android:layout_centerInParent="true"
         android:backgroundTint="#707070"
-        android:translationY="230dp"
+        android:translationY="200dp"
         app:cardCornerRadius="12dp"
         app:cardElevation="6dp">
 
         <ImageButton
-            android:id="@+id/nikon"
-            android:layout_width="250dp"
-            android:layout_height="158dp"
+            android:id="@+id/full_frame"
+            android:layout_width="276dp"
+            android:layout_height="144dp"
             android:backgroundTint="#707070"
             android:scaleType="centerInside"
-            android:src="@drawable/nikon"
-            android:translationX="-11dp"
-            android:translationY="-15dp" />
-
+            android:onClick="calco"
+            android:translationX="-21dp"
+            android:translationY="-10dp" />
     </androidx.cardview.widget.CardView>
 
-
-
-    <!--    terzo bottone-->
-
-
-
-    <androidx.cardview.widget.CardView
-        android:layout_width="233dp"
-        android:layout_height="129dp"
-        android:layout_centerInParent="true"
-        android:backgroundTint="#707070"
-        android:translationY="-150dp"
-        app:cardCornerRadius="12dp"
-        app:cardElevation="6dp">
-
-        <ImageButton
-            android:id="@+id/sony"
-            android:layout_width="202dp"
-            android:layout_height="112dp"
-            android:layout_gravity="center"
-            android:backgroundTint="#707070"
-            android:scaleType="fitCenter"
-            android:src="@drawable/sony" />
-    </androidx.cardview.widget.CardView>
-
-    <!--    info bottone-->
-
-
-    <ImageButton
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_gravity="end"
-        android:backgroundTint="#303030"
-        android:scaleType="centerInside"
-        android:src="@drawable/info"
-        android:translationX="300dp"
-        android:translationY="650dp" />
 
 </RelativeLayout>

@@ -41,7 +41,7 @@
             android:layout_width="220dp"
             android:layout_height="186dp"
             android:backgroundTint="#707070"
-            android:onClick="calcolatrice"
+            android:onClick="calcolatrice0"
             android:scaleType="centerInside"
             android:src="@drawable/calculator" />
     </androidx.cardview.widget.CardView>

@@ -1,9 +1,141 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#303030"
     tools:context=".GuidaActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="187dp"
+        android:backgroundTint="#424242"
+        android:translationY="-100dp"
+        app:cardCornerRadius="0dp"
+        app:cardElevation="6dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:text="@string/Title_whats"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:translationY="130dp" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:translationY="85dp"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:textSize="16.8dp"
+        android:text="@string/long_string_whats"
+        android:id="@+id/textGuida">
+    </TextView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:backgroundTint="#707070"
+        android:text="@string/NORD"
+        android:onClick="nord"
+        android:scaleType="centerInside"
+        android:translationX="20dp"
+        android:translationY="510dp" />
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:translationY="500dp"
+        android:translationX="100dp"
+        android:padding="16dp"
+        android:text="@string/nord_string"
+        android:id="@+id/string_nord">
+    </TextView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:backgroundTint="#707070"
+        android:text="@string/EST"
+        android:onClick="est"
+        android:scaleType="centerInside"
+        android:translationX="20dp"
+        android:translationY="560dp" />
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:translationY="550dp"
+        android:translationX="100dp"
+        android:padding="16dp"
+        android:text="@string/est_string"
+        android:id="@+id/string_est">
+    </TextView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:backgroundTint="#707070"
+        android:text="@string/SUD"
+        android:onClick="sud"
+        android:scaleType="centerInside"
+        android:translationX="20dp"
+        android:translationY="610dp" />
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:translationY="600dp"
+        android:textColor="@color/white"
+        android:translationX="100dp"
+        android:padding="16dp"
+        android:text="@string/sud_string"
+        android:id="@+id/string_sud">
+    </TextView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:backgroundTint="#707070"
+        android:text="@string/OVEST"
+        android:onClick="ovest"
+        android:scaleType="centerInside"
+        android:translationX="20dp"
+        android:translationY="660dp" />
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:translationY="650dp"
+        android:translationX="100dp"
+        android:padding="16dp"
+        android:text="@string/ovest_string"
+        android:id="@+id/string_ovest">
+    </TextView>
+
+    <ImageButton
+        android:id="@+id/imageButton_next"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:backgroundTint="?attr/colorButtonNormal"
+        android:onClick="next1"
+        android:translationX="340dp"
+        android:translationY="670dp"
+        app:srcCompat="@android:drawable/ic_media_ff" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/NEXT"
+        android:translationY="706dp"
+        android:translationX="358dp">
+    </TextView>
+</RelativeLayout>

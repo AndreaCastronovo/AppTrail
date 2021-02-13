@@ -6,8 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#303030"
-    tools:context=".CalcolatriceActivity2">
-
+    tools:context=".Next1">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -21,37 +20,49 @@
             android:layout_width="match_parent"
             android:layout_height="32dp"
             android:layout_centerInParent="true"
-            android:text="SELEZIONA DATI OBBIETTIVO"
+            android:textColor="@color/white"
+            android:text="@string/Title_PolarStar"
             android:textAlignment="center"
-            android:textSize="20dp"
+            android:textSize="18dp"
             android:textStyle="bold"
             android:translationY="130dp" />
     </androidx.cardview.widget.CardView>
 
-
-    <EditText
-        android:id="@+id/edit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:translationX="100dp"
-        android:translationY="350dp" />
-
-
     <TextView
-        android:id="@+id/focale"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="FOCALE SELEZIONATA ="
-        android:translationX="80dp"
-        android:translationY="300dp" />
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:translationY="85dp"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:text="@string/long_string_PolarStar"
+        android:id="@+id/textPolar">
+    </TextView>
 
-
-    <NumberPicker
-        android:id="@+id/NumberPicker"
+    <ImageView
+        android:id="@+id/PolarImage_startrail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:translationX="70dp"
-        android:translationY="360dp" />
+        android:translationY="150dp"
+        app:srcCompat="@drawable/polar_star"
+        android:contentDescription="@string/Title_PolarStar" />
 
-
+    <ImageButton
+        android:id="@+id/imageButton_next"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@android:color/tertiary_text_light"
+        android:onClick="next2"
+        android:translationX="340dp"
+        android:translationY="670dp"
+        app:srcCompat="@android:drawable/ic_media_ff" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/NEXT"
+        android:translationY="706dp"
+        android:translationX="358dp">
+    </TextView>
 </RelativeLayout>

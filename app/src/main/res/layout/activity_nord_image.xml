@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:background="#303030"
+    tools:context=".NordImage"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:id="@+id/NordImage_startrail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/nord"
+        android:contentDescription="@string/NORD" />
+</RelativeLayout>
