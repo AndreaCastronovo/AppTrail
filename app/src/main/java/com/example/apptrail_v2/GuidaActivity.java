@@ -4,7 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.method.ScrollingMovementMethod;
 import android.view.View;
+import android.widget.TextView;
 
 public class GuidaActivity extends AppCompatActivity {
 
@@ -12,6 +14,9 @@ public class GuidaActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_guida);
+
+        TextView text = findViewById(R.id.textGuida);
+        text.setMovementMethod(new ScrollingMovementMethod());
     }
 
     public void nord(View view) {
