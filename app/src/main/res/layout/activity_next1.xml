@@ -10,11 +10,8 @@
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="187dp"
-        android:backgroundTint="#424242"
-        android:translationY="-100dp"
-        app:cardCornerRadius="0dp"
-        app:cardElevation="6dp">
+        android:layout_height="87dp"
+        android:backgroundTint="#424242">
 
         <TextView
             android:layout_width="match_parent"
@@ -25,7 +22,7 @@
             android:textAlignment="center"
             android:textSize="18dp"
             android:textStyle="bold"
-            android:translationY="130dp" />
+            android:layout_gravity="center"/>
     </androidx.cardview.widget.CardView>
 
     <TextView

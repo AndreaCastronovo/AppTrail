@@ -10,11 +10,8 @@
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="187dp"
-        android:backgroundTint="#424242"
-        android:translationY="-100dp"
-        app:cardCornerRadius="0dp"
-        app:cardElevation="6dp">
+        android:layout_height="87dp"
+        android:backgroundTint="#424242">
 
         <TextView
             android:layout_width="match_parent"
@@ -25,7 +22,7 @@
             android:textAlignment="center"
             android:textSize="18dp"
             android:textStyle="bold"
-            android:translationY="130dp" />
+            android:layout_gravity="center"/>
     </androidx.cardview.widget.CardView>
 
     <TextView
@@ -38,18 +35,6 @@
         android:textSize="20dp"
         android:text="@string/long_string_How1"
         android:id="@+id/textHow1">
-    </TextView>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:textColor="@color/white"
-        android:translationY="230dp"
-        android:padding="10dp"
-        android:textSize="20dp"
-        android:text="@string/long_string_How2"
-        android:id="@+id/textHow2">
     </TextView>
 
     <ImageButton

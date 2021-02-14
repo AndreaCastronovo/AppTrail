@@ -1,18 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="300dp"
+    android:layout_height="match_parent"
     android:background="#303030"
-    tools:context=".OvestImage"
-    android:layout_gravity="center">
+    tools:context=".OvestImage">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:backgroundTint="#424242">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/OVEST"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+    </androidx.cardview.widget.CardView>
 
     <ImageView
         android:id="@+id/OvestImage_startrail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="180dp"
+        android:layout_marginBottom="180dp"
+        android:contentDescription="@string/OVEST"
+        android:visibility="visible"
         app:srcCompat="@drawable/ovest"
-        android:contentDescription="@string/OVEST" />
+        tools:visibility="visible" />
 </RelativeLayout>

@@ -17,7 +17,15 @@ questo succede solo se vi trovate a fotografare a nord dell’equatore, mentre a
     <string name="Title_PolarStar">COME TROVARE LA STELLA POLARE NEL CIELO?</string>
     <string name="long_string_PolarStar">Il metodo più rapido e semplice è quello di usare app in grado di dirigervi alla ricerca della stellla, l\'altro metodo è quello del vero fotografo che con l\'esperienza individua nel cielo la costellazione del Grande Carro (detto anche Orsa Maggiore) e segue una piccola regola empirica per arrivare alla Polare.</string>
     <string name="Title_How">COME FARE UNA FOTO IN STILE STARTRAIL?</string>
-    <string name="long_string_How1">1) Cercate nel cielo la stella polare e quindi il NORD, una volta trovata la stella polare questa andrà necessariamente inclusa nella vostra inquadratura se volete dare ancora più spettacolarità al vostro scatto: solo così otterrete uno startrail circolare.</string>
-    <string name="long_string_How2">2) Molto importante è che vi rechiate in zone particolarmente buie per realizzare i vostri scatti. Dovete andare lontano dai centri abitati e in zone sgombre da fonti di illuminazione artificiali. Meglio sarebbe andare in montagna dove l’aria è anche meno umida e quindi è possibile immortalare una quantità di stelle maggiori rispetto a zone dove l’umidità crea una fastidiosa foschia, come zone vicino al mare o a laghi e corsi d’acqua; inoltre il cielo deve essere completamente libero da nuvole, anche sparse.</string>
+    <string name="long_string_How1">1) Cercate nel cielo la stella polare e quindi il NORD, una volta trovata la stella polare questa andrà necessariamente inclusa nella vostra inquadratura se volete dare ancora più spettacolarità al vostro scatto: solo così otterrete uno startrail circolare.
+        2) Molto importante è che vi rechiate in zone particolarmente buie per realizzare i vostri scatti. Dovete andare lontano dai centri abitati e in zone sgombre da fonti di illuminazione artificiali. Meglio sarebbe andare in montagna dove l’aria è anche meno umida e quindi è possibile immortalare una quantità di stelle maggiori rispetto a zone dove l’umidità crea una fastidiosa foschia, come zone vicino al mare o a laghi e corsi d’acqua; inoltre il cielo deve essere completamente libero da nuvole, anche sparse.</string>
     <string name="Title_Equipment">ATTREZZATURA CONSIGLIATA!</string>
+    <string name="cavalletto">- CAVALLETTO:</string>
+    <string name="intervallometro">- INTERVALLOMETRO:</string>
+    <string name="linkto_cavalletto">
+        <a href="https://www.amazon.it/dp/B00K0P047E/ref=cm_sw_r_cp_apa_i_DRPYX034D6V5J76H51K8">Cavalletto treppiedi con stabilità rafforzata, progettato per funzionare con obbiettivi standard e compatibile con qualsiasi dispositivo fino a 1.5Kg.</a>
+    </string>
+    <string name="linkto_intervallometro">
+        <a href="https://www.amazon.it/dp/B01KVE777S/ref=cm_sw_r_cp_apa_i_BDRZK89NR4M1QHKQM4NS">Comando di scatto da remoto che permette di impostare il tempo di esposizione, utile per automatizzare gli scatti con un intervallo di tempo prestabilito.</a>
+    </string>
 </resources>
