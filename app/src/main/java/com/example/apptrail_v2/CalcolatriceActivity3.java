@@ -28,6 +28,7 @@ public class CalcolatriceActivity3 extends AppCompatActivity {
 
     }
 
+    // Metodo per tornare alla MainActivity
     public void home(View view)
     {
         Intent intent = new Intent(this, MainActivity.class);

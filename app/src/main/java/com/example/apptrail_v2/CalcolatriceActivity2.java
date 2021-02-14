@@ -34,7 +34,7 @@ public class CalcolatriceActivity2 extends AppCompatActivity {
         text.setText(String.valueOf(crop_factor));
 
 
-        //PRIMO PICKER PER LUNGHEZZA FOCALE
+        //PRIMO PICKER PER LUNGHEZZA FOCALE -------------------------------------------------------------------------------------------
         NumberPicker numberPicker = findViewById(R.id.NumberPicker);
 
         //TESTO PER VISUALIZZARE LUNGHEZZA FOCALE = mm
@@ -50,8 +50,9 @@ public class CalcolatriceActivity2 extends AppCompatActivity {
             }
         });
 
-        //FINE
-        //SECONDO PICKER PER APERTURA DIAFRAMMA
+        //FINE-----------------------------------------------------------------------------------------------------------------------
+
+        //SECONDO PICKER PER APERTURA DIAFRAMMA -------------------------------------------------------------------------------------
         NumberPicker numberPicker2 = findViewById(R.id.NumberPicker2);
 
         //TESTO PER VISUALIZZARE APERTURA DIAFRAMMA = mm
@@ -66,8 +67,9 @@ public class CalcolatriceActivity2 extends AppCompatActivity {
             }
         });
 
-        //FINE
+        //FINE  --------------------------------------------------------------------------------------------------------------------------
     }
+    // Definisco metodo per passare alla nuova Activity (CalcolatriceActivity3)
     public void avanti(View view)
     {
         Intent intent = new Intent(this, CalcolatriceActivity3.class);

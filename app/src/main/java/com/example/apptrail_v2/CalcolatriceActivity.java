@@ -10,35 +10,41 @@ public class CalcolatriceActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calcolatrice);
-        ImageButton canon = (ImageButton) findViewById(R.id.canon);
+
+
+        ImageButton canon = (ImageButton) findViewById(R.id.canon);               // UTILIZZO findViewById PER ACCEDERE AD UNA RISORSA PASSANDO, COME PARAMETRO, L'IDENTIFICATORE
         ImageButton nikon =  (ImageButton) findViewById(R.id.nikon);
         ImageButton sony =  (ImageButton) findViewById(R.id.sony);
-        canon.setOnClickListener(new View.OnClickListener(){
+
+
+        // Definisco come deve variare l'int X in base al Button utilizzato
+
+        canon.setOnClickListener(new View.OnClickListener(){                      // UTILIZZO IL METODO setOnClickListener  PER CREARE UN'AZIONE RUNTIME PER l'ImageButton
             @Override
-            public void onClick(View v) {
+            public void onClick(View view) {
                 CalcolatriceActivity0.x = 1.6;
-                calcolatrice2(v,CalcolatriceActivity0.x);
+                calcolatrice2(view,CalcolatriceActivity0.x);
             }
         });
 
-        //asdfghjklòlkjhg
-
         nikon.setOnClickListener(new View.OnClickListener(){
             @Override
-            public void onClick(View v){
+            public void onClick(View view){
                 CalcolatriceActivity0.x = 1.5;
-                calcolatrice2(v,CalcolatriceActivity0.x);
+                calcolatrice2(view,CalcolatriceActivity0.x);
             }
         });
 
         sony.setOnClickListener(new View.OnClickListener(){
             @Override
-            public void onClick(View v){
+            public void onClick(View view){
                 CalcolatriceActivity0.x = 1.5;
-                calcolatrice2(v,CalcolatriceActivity0.x);
+                calcolatrice2(view,CalcolatriceActivity0.x);
             }
         });
     }
+
+    //Definisco nuove metodo
     public void calcolatrice2(View view, Double x)
     {
         Intent ic = new Intent(this, CalcolatriceActivity2.class);
