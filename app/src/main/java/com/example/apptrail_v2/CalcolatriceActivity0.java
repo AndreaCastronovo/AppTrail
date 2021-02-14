@@ -11,16 +11,24 @@ public class CalcolatriceActivity0 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calcolatrice0);
+
+        ImageButton full = (ImageButton) findViewById(R.id.full_frame);
+        full.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                CalcolatriceActivity0.x = 1.0;
+                calco(v,CalcolatriceActivity0.x);
+            }
+        });
     }
     public void calcolatrice(View view)
     {
         Intent intent = new Intent(this, CalcolatriceActivity.class);
         startActivity(intent);
     }
-    public void calco(View view)
+    public void calco(View view, Double x)
     {
-        Intent ic = new Intent(this, CalcolatriceActivity2.class);
-        ic.putExtra(Crop, this.x);
-        startActivity(ic);
+        Intent intent = new Intent(this, CalcolatriceActivity2.class);
+        startActivity(intent);
     }
 }

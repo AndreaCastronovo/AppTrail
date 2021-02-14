@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CalcolatriceActivity3">
+
+    <!--    Activity Title-->
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="187dp"
+        android:backgroundTint="#424242"
+        android:translationY="-100dp"
+        app:cardCornerRadius="0dp"
+        app:cardElevation="6dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_centerInParent="true"
+            android:text="TABELLA RIASSUNTIVA"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:translationY="130dp" />
+    </androidx.cardview.widget.CardView>
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="end"
+        android:backgroundTint="#303030"
+        android:scaleType="centerInside"
+        android:onClick="home"
+        android:src="@drawable/home"
+        android:translationX="300dp"
+        android:translationY="650dp" />
+
+    <!--COLONNA 1-->
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@android:color/background_light"
+            android:translationY="120dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/holo_orange_dark">
+<!--                //COLONNA 1-->
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Nome"
+                    android:textColor="@android:color/black"
+                    android:padding="12sp"
+                    android:textSize="18sp"
+                    android:layout_weight="4"
+                    android:gravity="center_horizontal"
+
+                    />
+
+                <!--COLONNA 2-->
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="StarTrail"
+                    android:textColor="@android:color/black"
+                    android:padding="10sp"
+                    android:textSize="18sp"
+                    android:layout_weight="4"
+                    android:gravity="center_horizontal"
+
+                    />
+
+                <!--COLONNA 3-->
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="MilkyWay"
+                    android:textColor="@android:color/black"
+                    android:padding="10sp"
+                    android:textSize="17sp"
+                    android:layout_weight="4"
+                    android:gravity="center_horizontal"
+
+                    />
+
+            </TableRow>
+
+            <!-- Table Data 1-->
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="4"
+                    android:gravity="center"
+                    android:padding="10sp"
+                    android:text="ISO"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp"
+
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:text="StarTrail"
+                    android:textColor="@android:color/black"
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:layout_weight="4"
+                    android:gravity="center"
+
+                    /> <TextView
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:text="StarTrail"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:gravity="center"
+
+                />
+            </TableRow>
+
+
+            <!-- Table Data 2 -->
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="4"
+                    android:gravity="center"
+                    android:padding="10sp"
+                    android:text="DIAFRAMMA"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp"
+
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:text="StarTrail"
+                    android:textColor="@android:color/black"
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:layout_weight="4"
+                    android:gravity="center"
+
+                    /> <TextView
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:text="StarTrail"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:gravity="center"
+
+                />
+            </TableRow>
+
+            <!-- Table Data 3-->
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="4"
+                    android:gravity="center"
+                    android:padding="10sp"
+                    android:text="FOCALE"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp"
+
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:text="StarTrail"
+                    android:textColor="@android:color/black"
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:layout_weight="4"
+                    android:gravity="center"
+
+                    /> <TextView
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:text="StarTrail"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:gravity="center"
+
+                />
+            </TableRow>
+
+
+            <!-- Table Data 4-->
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="4"
+                    android:gravity="center"
+                    android:padding="10sp"
+                    android:text="TEMPI"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp"
+
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:text="StarTrail"
+                    android:textColor="@android:color/black"
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:layout_weight="4"
+                    android:gravity="center"
+
+                    /> <TextView
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:text="StarTrail"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:gravity="center"
+
+                />
+            </TableRow>
+
+
+            <!-- Table Data 5-->
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="4"
+                    android:gravity="center"
+                    android:padding="10sp"
+                    android:text="FORMATO"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp"
+
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:text="raw"
+                    android:textColor="@android:color/black"
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:layout_weight="4"
+                    android:gravity="center"
+
+                    /> <TextView
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:text="raw"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:gravity="center"
+
+                />
+            </TableRow>
+
+
+            <!-- Table Data 6-->
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="4"
+                    android:gravity="center"
+                    android:padding="10sp"
+                    android:text="N.FOTO"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp"
+
+                    />
+                <TextView
+                    android:id="@+id/ostrica"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:textColor="@android:color/black"
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:layout_weight="4"
+                    android:gravity="center"
+
+                    /> <TextView
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:text="StarTrail"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:gravity="center"
+
+                />
+            </TableRow>
+
+        </TableLayout>
+
+
+    //TEST PER VEDERE VALORE X
+
+    <EditText
+        android:id="@+id/edit2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationX="100dp"
+        android:translationY="650dp" />
+
+
+</RelativeLayout>

@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:background="#303030"
     tools:context=".CalcolatriceActivity2">
 
@@ -28,7 +29,7 @@
             android:translationY="130dp" />
     </androidx.cardview.widget.CardView>
 
-
+//TEST PER VEDERE VALORE X
     <EditText
         android:id="@+id/edit"
         android:layout_width="wrap_content"
@@ -41,9 +42,9 @@
         android:id="@+id/focale"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="FOCALE SELEZIONATA ="
-        android:translationX="80dp"
-        android:translationY="300dp" />
+        android:text="LUNGHEZZA FOCALE SELEZIONATA ="
+        android:translationX="40dp"
+        android:translationY="150dp" />
 
 
     <NumberPicker
@@ -51,7 +52,34 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:translationX="70dp"
-        android:translationY="360dp" />
+        android:translationY="160dp" />
+
+    <TextView
+        android:id="@+id/diaframma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="APERTURA MINIMO DIAFRAMMA ="
+        android:translationX="40dp"
+        android:translationY="400dp" />
+
+
+    <NumberPicker
+        android:id="@+id/NumberPicker2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationX="70dp"
+        android:translationY="400dp" />
+
+
+
+    //BOTTONE PER ANDARE AVANTI
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="avanti"
+        android:translationX="300dp"
+        android:translationY="600dp" />
 
 
 </RelativeLayout>
