@@ -9,9 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppTrail_v2">
-        <activity android:name=".CalcolatriceActivity3"
+        <activity android:name=".MeteoActivity"></activity>
+        <activity
+            android:name=".CalcolatriceActivity3"
             android:theme="@style/Theme.AppCompat.NoActionBar"> <!-- //elimino la ActionBar -->
-            </activity>
+        </activity>
         <activity
             android:name=".CalcolatriceActivity0"
             android:theme="@style/Theme.AppCompat.NoActionBar"> <!-- //elimino la ActionBar -->

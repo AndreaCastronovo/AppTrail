@@ -9,7 +9,7 @@ public class CalcolatriceActivity0 extends AppCompatActivity {
 //    DEFINISCO 2 VARIABILI, UNA PER LA 'KEY' E UNA PER LA 'VALUE'
     public static String Crop = "com.AppTrail.CROP";
     public static Double x = 1.0;
-
+    public static int iso;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

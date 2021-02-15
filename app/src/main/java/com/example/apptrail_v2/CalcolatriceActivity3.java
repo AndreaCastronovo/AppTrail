@@ -41,6 +41,11 @@ public class CalcolatriceActivity3 extends AppCompatActivity {
         TextView tempo2 = (TextView) findViewById(R.id.tempo2);
         tempo2.setText(String.valueOf(result)+"s");
 
+        TextView iso1 = (TextView) findViewById(R.id.iso1);
+        iso1.setText(String.valueOf(CalcolatriceActivity0.iso));
+
+        TextView iso2 = (TextView) findViewById(R.id.iso2);
+        iso2.setText(String.valueOf(CalcolatriceActivity0.iso));
 
 
 

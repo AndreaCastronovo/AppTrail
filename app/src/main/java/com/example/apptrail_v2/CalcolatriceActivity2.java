@@ -85,7 +85,7 @@ public class CalcolatriceActivity2 extends AppCompatActivity {
     // Definisco metodo per passare alla nuova Activity (CalcolatriceActivity3)
     public void avanti(View view)
     {
-        Intent intent = new Intent(this, CalcolatriceActivity3.class);
+        Intent intent = new Intent(this, MeteoActivity.class);
         startActivity(intent);
     }
 }
