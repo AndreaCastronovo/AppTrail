@@ -4,7 +4,7 @@
 Per realizzare questo tipo di foto si scattano una sequenza di immagini a lunga esposizione per poi andarle a "fondere" in un\'unica fotografia utilizzando software di elaborazione d\'immagine.
 Le stelle lasciano una traccia circolare attorno ad un punto che sembra quasi fisso: è la STELLA POLARE, infatti l’asse di rotazione terrestre passa all’incirca proprio in corrispondenza di questa stella;
 questo succede solo se vi trovate a fotografare a nord dell’equatore, mentre a sud dell’equatore non vedrete la stella polare. Se invece vi trovate all’equatore vedrete le stelle lasciare una strisciata dritta e parallela le une con le altre. Riassumendo, ecco cosa otteniamo puntando la fotocamera verso:</string>
-    <string name="Title_whats">COSA E\' LO STARTRAIL?</string>
+    <string name="Title_whats">COS\' E\' LO STARTRAIL?</string>
     <string name="NORD">NORD</string>
     <string name="SUD">SUD</string>
     <string name="EST">EST</string>

@@ -37,6 +37,7 @@
         android:layout_width="wrap_content"
         android:layout_height="200dp"
         android:gravity="center"
+        android:textColor="@color/white"
         android:text="@string/long_string_whats"
         android:textSize="17dp"
         app:layout_constraintEnd_toEndOf="parent"
