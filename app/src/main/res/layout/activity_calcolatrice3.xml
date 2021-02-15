@@ -10,22 +10,28 @@
     <!--    Activity Title-->
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
         android:layout_width="match_parent"
-        android:layout_height="187dp"
+        android:layout_height="87dp"
         android:backgroundTint="#424242"
-        android:translationY="-100dp"
         app:cardCornerRadius="0dp"
-        app:cardElevation="6dp">
+        app:cardElevation="6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="32dp"
+            android:layout_height="match_parent"
             android:layout_centerInParent="true"
+            android:backgroundTint="#707070"
+            android:gravity="center"
             android:text="TABELLA RIASSUNTIVA"
             android:textAlignment="center"
+            android:textColor="@color/white"
             android:textSize="20dp"
-            android:textStyle="bold"
-            android:translationY="130dp" />
+            android:textStyle="bold" />
     </androidx.cardview.widget.CardView>
 
     <ImageButton
@@ -58,6 +64,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="Nome"
+                    android:textStyle="bold"
                     android:textColor="@android:color/black"
                     android:padding="12sp"
                     android:textSize="18sp"
@@ -72,6 +79,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="StarTrail"
+                    android:textStyle="bold"
                     android:textColor="@android:color/black"
                     android:padding="10sp"
                     android:textSize="18sp"
@@ -85,6 +93,7 @@
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:textStyle="bold"
                     android:text="MilkyWay"
                     android:textColor="@android:color/black"
                     android:padding="10sp"
@@ -104,6 +113,7 @@
                     android:layout_height="70dp"
                     android:layout_weight="4"
                     android:gravity="center"
+                    android:textStyle="bold"
                     android:padding="10sp"
                     android:text="ISO"
                     android:textColor="@android:color/black"
@@ -140,6 +150,7 @@
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="70dp"
+                    android:textStyle="bold"
                     android:layout_weight="4"
                     android:gravity="center"
                     android:padding="10sp"
@@ -178,6 +189,7 @@
                     android:layout_width="0dp"
                     android:layout_height="70dp"
                     android:layout_weight="4"
+                    android:textStyle="bold"
                     android:gravity="center"
                     android:padding="10sp"
                     android:text="FOCALE"
@@ -215,6 +227,7 @@
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="70dp"
+                    android:textStyle="bold"
                     android:layout_weight="4"
                     android:gravity="center"
                     android:padding="10sp"
@@ -244,7 +257,8 @@
                 android:layout_weight="4"
                 android:gravity="center"
 
-                />
+
+                    />
             </TableRow>
 
 
@@ -255,6 +269,7 @@
                     android:layout_width="0dp"
                     android:layout_height="70dp"
                     android:layout_weight="4"
+                    android:textStyle="bold"
                     android:gravity="center"
                     android:padding="10sp"
                     android:text="FORMATO"
@@ -295,6 +310,7 @@
                     android:layout_weight="4"
                     android:gravity="center"
                     android:padding="10sp"
+                    android:textStyle="bold"
                     android:text="N.FOTO"
                     android:textColor="@android:color/black"
                     android:textSize="12sp"

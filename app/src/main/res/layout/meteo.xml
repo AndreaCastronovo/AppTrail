@@ -14,10 +14,8 @@ tools:context=".CalcolatriceActivity">
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
         android:layout_width="match_parent"
-        android:layout_height="187dp"
-        android:layout_marginTop="15dp"
+        android:layout_height="87dp"
         android:backgroundTint="#424242"
-        android:translationY="-120dp"
         app:cardCornerRadius="0dp"
         app:cardElevation="6dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -27,13 +25,15 @@ tools:context=".CalcolatriceActivity">
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="32dp"
+            android:layout_height="match_parent"
             android:layout_centerInParent="true"
+            android:backgroundTint="#707070"
+            android:gravity="center"
             android:text="CONDIZIONI LUNA"
             android:textAlignment="center"
+            android:textColor="@color/white"
             android:textSize="20dp"
-            android:textStyle="bold"
-            android:translationY="135dp" />
+            android:textStyle="bold" />
     </androidx.cardview.widget.CardView>
 
 
@@ -47,6 +47,7 @@ tools:context=".CalcolatriceActivity">
     android:layout_centerHorizontal="true"
     android:layout_centerVertical="true"
     android:translationY="30dp"
+    android:backgroundTint="#707070"
     app:cardCornerRadius="12dp"
     app:cardElevation="6dp"
     app:layout_constraintBottom_toBottomOf="parent"
@@ -58,6 +59,7 @@ tools:context=".CalcolatriceActivity">
     <ImageButton
         android:id="@+id/cloud"
         android:layout_width="270dp"
+        android:backgroundTint="#707070"
         android:layout_height="138dp"
         android:scaleType="centerInside"
         android:src="@drawable/cloud"
@@ -74,6 +76,7 @@ tools:context=".CalcolatriceActivity">
 <androidx.cardview.widget.CardView
     android:id="@+id/cardView3"
     android:layout_width="200dp"
+    android:backgroundTint="#707070"
     android:layout_height="90dp"
     android:layout_centerHorizontal="true"
     android:layout_centerVertical="true"
@@ -89,6 +92,7 @@ tools:context=".CalcolatriceActivity">
         android:id="@+id/fullmoon"
         android:layout_width="350dp"
         android:layout_height="140dp"
+        android:backgroundTint="#707070"
         android:scaleType="centerInside"
         android:src="@drawable/fullmoon"
         android:translationX="-75dp"
@@ -107,6 +111,7 @@ tools:context=".CalcolatriceActivity">
     android:layout_marginBottom="30dp"
     android:translationY="30dp"
     app:cardCornerRadius="12dp"
+    android:backgroundTint="#707070"
     app:cardElevation="6dp"
     app:layout_constraintBottom_toTopOf="@+id/cardView2"
     app:layout_constraintEnd_toEndOf="@+id/cardView2"
@@ -116,6 +121,7 @@ tools:context=".CalcolatriceActivity">
     <ImageButton
         android:id="@+id/halfmoon"
         android:layout_width="224dp"
+        android:backgroundTint="#707070"
         android:layout_height="112dp"
         android:layout_gravity="center"
         android:scaleType="centerInside"

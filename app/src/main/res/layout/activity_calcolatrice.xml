@@ -11,15 +11,14 @@
 
     <!--    Activity Title-->
 
+
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
         android:layout_width="match_parent"
-        android:layout_height="187dp"
+        android:layout_height="87dp"
         android:backgroundTint="#424242"
-        android:translationY="-120dp"
         app:cardCornerRadius="0dp"
         app:cardElevation="6dp"
-        app:layout_constraintBottom_toTopOf="@+id/cardView4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,13 +26,15 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="32dp"
+            android:layout_height="match_parent"
             android:layout_centerInParent="true"
+            android:backgroundTint="#707070"
+            android:gravity="center"
             android:text="SELEZIONA MARCA FOTOCAMERA"
             android:textAlignment="center"
+            android:textColor="@color/white"
             android:textSize="20dp"
-            android:textStyle="bold"
-            android:translationY="135dp" />
+            android:textStyle="bold" />
     </androidx.cardview.widget.CardView>
 
 
