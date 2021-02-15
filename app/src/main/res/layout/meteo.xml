@@ -11,30 +11,30 @@ tools:context=".CalcolatriceActivity">
 
 <!--    Activity Title-->
 
-<androidx.cardview.widget.CardView
-    android:id="@+id/cardView"
-    android:layout_width="match_parent"
-    android:layout_height="187dp"
-    android:backgroundTint="#424242"
-    android:translationY="-120dp"
-    app:cardCornerRadius="0dp"
-    app:cardElevation="6dp"
-    app:layout_constraintBottom_toTopOf="@+id/cardView4"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintHorizontal_bias="0.5"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="parent">
-
-    <TextView
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
         android:layout_width="match_parent"
-        android:layout_height="32dp"
-        android:layout_centerInParent="true"
-        android:text="CONDIZIONI LUNA"
-        android:textAlignment="center"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        android:translationY="135dp" />
-</androidx.cardview.widget.CardView>
+        android:layout_height="187dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#424242"
+        android:translationY="-120dp"
+        app:cardCornerRadius="0dp"
+        app:cardElevation="6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_centerInParent="true"
+            android:text="CONDIZIONI LUNA"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:translationY="135dp" />
+    </androidx.cardview.widget.CardView>
 
 
 <!--    secondo bottone   (canon) -->
