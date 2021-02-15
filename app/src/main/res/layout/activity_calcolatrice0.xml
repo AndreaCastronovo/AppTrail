@@ -12,63 +12,66 @@
     <!--    Activity Title-->
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardView5"
+        android:id="@+id/cardView"
         android:layout_width="match_parent"
-        android:layout_height="187dp"
+        android:layout_height="80dp"
         android:backgroundTint="#424242"
-        android:translationY="-100dp"
         app:cardCornerRadius="0dp"
         app:cardElevation="6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="32dp"
+            android:layout_height="match_parent"
             android:layout_centerInParent="true"
-            android:text="SELEZIONA FORMATO CAMERA"
+            android:backgroundTint="#707070"
+            android:gravity="center"
+            android:text="SELEZIONA FORMATO FOTO"
             android:textAlignment="center"
+            android:textColor="@color/white"
             android:textSize="20dp"
-            android:textStyle="bold"
-            android:translationY="130dp" />
+            android:textStyle="bold" />
     </androidx.cardview.widget.CardView>
 
+
     <TextView
+        android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
         android:text="APS-C"
+        android:textColor="@color/mygrey"
+        android:textSize="23dp"
         android:textStyle="bold"
-        android:textSize="25dp"
-        app:layout_constraintBottom_toTopOf="@+id/apsc"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView" />
 
     <ImageButton
         android:id="@+id/apsc"
-        android:layout_width="268dp"
-        android:layout_height="182dp"
-        android:layout_marginBottom="320dp"
+        android:layout_width="240dp"
+        android:layout_height="150dp"
         android:backgroundTint="#707070"
         android:onClick="calcolatrice"
         android:scaleType="centerCrop"
         android:src="@drawable/apsc"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardView5"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <TextView
+        android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
-        android:layout_marginBottom="8dp"
+        android:textColor="@color/mygrey"
         android:text="FULL-FRAME"
+        android:textSize="22dp"
         android:textStyle="bold"
-        android:textSize="25dp"
-        app:layout_constraintBottom_toTopOf="@+id/full_frame"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -76,17 +79,17 @@
 
     <ImageButton
         android:id="@+id/full_frame"
-        android:layout_width="268dp"
-        android:layout_height="182dp"
-        android:layout_marginTop="474dp"
+        android:layout_width="240dp"
+        android:layout_height="155dp"
+        android:layout_marginTop="28dp"
         android:backgroundTint="#707070"
         android:onClick="calcolo"
         android:scaleType="centerInside"
         android:src="@drawable/full"
-        app:layout_constraintEnd_toEndOf="@+id/apsc"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/apsc"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView6" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
