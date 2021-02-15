@@ -1,22 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout6"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="#303030"
+    android:orientation="vertical"
     tools:context=".CalcolatriceActivity2">
 
-
     <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
         android:layout_width="match_parent"
         android:layout_height="187dp"
+        android:layout_marginTop="15dp"
         android:backgroundTint="#424242"
-        android:translationY="-100dp"
+        android:translationY="-120dp"
         app:cardCornerRadius="0dp"
-        app:cardElevation="6dp">
+        app:cardElevation="6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:layout_width="match_parent"
@@ -26,60 +32,118 @@
             android:textAlignment="center"
             android:textSize="20dp"
             android:textStyle="bold"
-            android:translationY="130dp" />
+            android:translationY="135dp" />
     </androidx.cardview.widget.CardView>
 
-//TEST PER VEDERE VALORE X
-    <EditText
-        android:id="@+id/edit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:translationX="100dp"
-        android:translationY="350dp" />
+
+    <!--    //TEST PER VEDERE VALORE X-->
 
 
     <TextView
         android:id="@+id/focale"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="LUNGHEZZA FOCALE SELEZIONATA ="
-        android:translationX="40dp"
-        android:translationY="150dp" />
-
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="50dp"
+        android:textColor="@color/orange"
+        android:text=" LUNGHEZZA FOCALE SELEZIONATA ="
+        android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/NumberPicker"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.644"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView" />
 
     <NumberPicker
         android:id="@+id/NumberPicker"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:translationX="70dp"
-        android:translationY="160dp" />
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/focale" />
 
     <TextView
         android:id="@+id/diaframma"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="30dp"
         android:text="APERTURA MINIMO DIAFRAMMA ="
-        android:translationX="40dp"
-        android:translationY="400dp" />
-
+        android:textSize="15dp"
+        android:textColor="@color/orange"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NumberPicker" />
 
     <NumberPicker
         android:id="@+id/NumberPicker2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:translationX="70dp"
-        android:translationY="400dp" />
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="46dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/diaframma" />
 
 
-
-    //BOTTONE PER ANDARE AVANTI
-
-    <Button
+    <TextView
+        android:id="@+id/diaframma2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="15dp"
+        android:text=""
+        android:textColor="@color/orange"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/NumberPicker3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/diaframma"
+        app:layout_constraintTop_toTopOf="@+id/diaframma"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <NumberPicker
+        android:id="@+id/NumberPicker3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="120dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/NumberPicker2"
+        app:layout_constraintTop_toTopOf="@+id/diaframma" />
+
+
+    <!--    //BOTTONE PER ANDARE AVANTI-->
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:text="."
+        android:textSize="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/NumberPicker3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="77dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="#303030"
         android:onClick="avanti"
-        android:translationX="300dp"
-        android:translationY="600dp" />
+        android:scaleType="fitCenter"
+        android:src="@drawable/avanti"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
 
 
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

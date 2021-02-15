@@ -12,17 +12,35 @@ public class CalcolatriceActivity3 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+         int focale = CalcolatriceActivity2.focale;
+         double crop = CalcolatriceActivity0.x;
+         int result = (int) (500/(focale*crop));
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calcolatrice3);
-        //      TEST PER VEDERE VALORE X
 
 
-        //TEST PER VEDERE I VALORI
-        EditText text = (EditText) findViewById(R.id.edit2);
-        text.setText(String.valueOf(CalcolatriceActivity0.x));
+        TextView diaframma1 = (TextView) findViewById(R.id.diaframma1);
+        diaframma1.setText("F/"+String.valueOf(CalcolatriceActivity2.diaframma)+"."+String.valueOf(CalcolatriceActivity2.diaframma2));
 
-        TextView text2 = (TextView) findViewById(R.id.ostrica);
-        text2.setText(String.valueOf(CalcolatriceActivity0.x));
+        TextView diaframma2 = (TextView) findViewById(R.id.diaframma2);
+        diaframma2.setText("F/"+String.valueOf(CalcolatriceActivity2.diaframma)+"."+String.valueOf(CalcolatriceActivity2.diaframma2));
+
+
+
+        TextView focale1 = (TextView) findViewById(R.id.focale1);
+        focale1.setText(String.valueOf(CalcolatriceActivity2.focale)+" mm");
+
+        TextView focale2 = (TextView) findViewById(R.id.focale2);
+        focale2.setText(String.valueOf(CalcolatriceActivity2.focale)+" mm");
+
+
+        TextView tempo1 = (TextView) findViewById(R.id.tempo1);
+        tempo1.setText(" 30s");
+
+        TextView tempo2 = (TextView) findViewById(R.id.tempo2);
+        tempo2.setText(String.valueOf(result)+"s");
+
 
 
 

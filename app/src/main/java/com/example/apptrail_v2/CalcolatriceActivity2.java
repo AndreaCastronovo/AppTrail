@@ -8,13 +8,14 @@ import android.widget.EditText;
 import android.widget.NumberPicker;
 import android.widget.TextView;
 public class CalcolatriceActivity2 extends AppCompatActivity {
-    //DICHIARO LE 2 TEXTVIEW PER I PICKER
+    //DICHIARO LE 3 TEXTVIEW PER I PICKER
     TextView textView;
     TextView textView2;
+    TextView textView3;
 
     //DICHIARO LE VARIABILI FOCALE E DIAFRAMMA, DA UTILIZZARE NEL CALCOLO FINALE
-    public static int diaframma;
-    public static int focale;
+    public static int diaframma,focale,diaframma2;
+
 
 
 
@@ -30,8 +31,7 @@ public class CalcolatriceActivity2 extends AppCompatActivity {
 
 //              TEST PER VEDERE VALORE X
 
-        EditText text = (EditText) findViewById(R.id.edit);
-        text.setText(String.valueOf(crop_factor));
+
 
 
         //PRIMO PICKER PER LUNGHEZZA FOCALE -------------------------------------------------------------------------------------------
@@ -40,11 +40,11 @@ public class CalcolatriceActivity2 extends AppCompatActivity {
         //TESTO PER VISUALIZZARE LUNGHEZZA FOCALE = mm
         textView = findViewById(R.id.focale);
         numberPicker.setMinValue(0);
-        numberPicker.setMaxValue(500);
+        numberPicker.setMaxValue(350);
         numberPicker.setOnValueChangedListener(new NumberPicker.OnValueChangeListener() {
             @Override
             public void onValueChange(NumberPicker picker, int oldVal, int newVal) {
-                textView.setText("LUNGHEZZA FOCALE SELEZIONATA = "+ newVal +"mm");
+                textView.setText("LUNGHEZZA FOCALE SELEZIONATA = "+ newVal +" mm");
                 focale = numberPicker.getValue();  //ATTRAVERSO QUESTO METODO SALVO IL VALORE FOCALE SCELTO DALL'UTENTE
 
             }
@@ -54,8 +54,9 @@ public class CalcolatriceActivity2 extends AppCompatActivity {
 
         //SECONDO PICKER PER APERTURA DIAFRAMMA -------------------------------------------------------------------------------------
         NumberPicker numberPicker2 = findViewById(R.id.NumberPicker2);
+        NumberPicker numberPicker3 = findViewById(R.id.NumberPicker3);
 
-        //TESTO PER VISUALIZZARE APERTURA DIAFRAMMA = mm
+        //TESTO PER VISUALIZZARE APERTURA DIAFRAMMA
         textView2 = findViewById(R.id.diaframma);
         numberPicker2.setMinValue(0);
         numberPicker2.setMaxValue(500);
@@ -66,6 +67,18 @@ public class CalcolatriceActivity2 extends AppCompatActivity {
                 diaframma = numberPicker2.getValue();  //ATTRAVERSO QUESTO METODO SALVO IL VALORE SCELTO DALL'UTENTE
             }
         });
+        //TESTO PER VISUALIZZARE PARTE DECIMANE  DIAFRAMMA
+        textView3 = findViewById(R.id.diaframma2);
+        numberPicker3.setMinValue(0);
+        numberPicker3.setMaxValue(9);
+        numberPicker3.setOnValueChangedListener(new NumberPicker.OnValueChangeListener() {
+            @Override
+            public void onValueChange(NumberPicker picker, int oldVal2, int newVal2) {
+                textView3.setText(" . "+newVal2);
+                diaframma2 = numberPicker3.getValue();  //ATTRAVERSO QUESTO METODO SALVO IL VALORE SCELTO DALL'UTENTE
+            }
+        });
+
 
         //FINE  --------------------------------------------------------------------------------------------------------------------------
     }
