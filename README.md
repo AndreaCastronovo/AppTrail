@@ -1,4 +1,4 @@
-# AppTrial
+# AppTrail
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
 *** that would make this better, please fork the NuriCheat and create a pull request
@@ -28,31 +28,26 @@
 [![GitHub followers][github-shield]][github-url]
 
 
-<!-- PROJECT LOGO
+<!-- PROJECT LOGO -->
 <p align="center">
-  <img src="https://github.com/Federicoand98/AR-Dice/blob/ardice-main/imgs/LoadLogo.png" alt="logo" height="500" width="400"
+  <img src="https://github.com/AndreaCastronovo/AppTrail/blob/master/app/src/main/res/drawable/logo.jpg" alt="logo" height="500" width="400"
 </p>   
   
 <br />
 <p align="center">
-  <a href="https://github.com/Federicoand98/AR-Dice">
+  <a href="https://github.com/AndreaCastronovo/AppTrail">
   </a>
-  <h1 align="center">ARDice</h1>
+  <h1 align="center">AppTrail</h1>
   <p align="center">
-    ARDice is an augmented reality application that allows you to roll dice. 
+    AppTrail is Android app to get information about StarTrail and will help you with settings of your camera.
     <br /> 
     <br />
-    <a href="https://github.com/Federicoand98/AR-Dice/blob/main/ARDice_ARelazione.pdf">In-Depth Document (Italian)</a>
-    ·
-    <a href="https://github.com/Federicoand98/AR-Dice/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/Federicoand98/AR-Dice/issues">Request Feature</a>
   </p>
 </p>
 
 
 
-<!-- TABLE OF CONTENTS
+<!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
   <ol>
@@ -72,16 +67,23 @@
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
 
 
 
-<!-- ABOUT THE PROJECT
+<!-- ABOUT THE PROJECT -->
 ## About The Project
-**ARDice** is an **augmented reality application** that allows you to roll dice.
+**AppTrail** is an **Android app** to get information about StarTrail and will help you with settings of your camera.
+
+## StarTrail:
+The STARTRAIL is a fotography type 
+Lo STARTRAIL è un tipo di fotografia in cui immortaliamo sul sensore il moto di rotazione terrestre, e quindi la macchina fotografica essendo solidale alla terra registrerà questo movimento tramite la cosiddetta “strisciata” delle stelle.
+Per realizzare questo tipo di foto si scattano una sequenza di immagini a lunga esposizione per poi andarle a "fondere" in un\'unica fotografia utilizzando software di elaborazione d\'immagine.
+Le stelle lasciano una traccia circolare attorno ad un punto che sembra quasi fisso: è la STELLA POLARE, infatti l’asse di rotazione terrestre passa all’incirca proprio in corrispondenza di questa stella;
+questo succede solo se vi trovate a fotografare a nord dell’equatore, mentre a sud dell’equatore non vedrete la stella polare. Se invece vi trovate all’equatore vedrete le stelle lasciare una strisciata dritta e parallela le une con le altre. Riassumendo, ecco cosa otteniamo puntando la fotocamera verso:
+
 
 ### Game Mode:
 This is the default mode in which the application is started up, in which it is possible to roll the dice very simply. In this mode, the Augmented Reality engine continuously detects surfaces and walls, therefore vertical and horizontal planes, making them interact with the objects in play.
@@ -131,7 +133,7 @@ This settings page can let you modify the colors of your dice. Tap the number to
 * [Visual Studio Code](https://code.visualstudio.com/download)
 * [Unity](https://unity.com/download)
 
-<!-- GETTING STARTED
+<!-- GETTING STARTED -->
 ## Getting Started
 
 To get a local copy up and running follow these simple steps.
@@ -154,7 +156,7 @@ To get a local copy up and running follow these simple steps.
 
 
 
-<!-- USAGE EXAMPLES
+<!-- USAGE EXAMPLES -->
 ## Usage
 
 To use the application:
@@ -163,7 +165,7 @@ To use the application:
 
 
 
-<!-- ROADMAP
+<!-- ROADMAP -->
 ## Roadmap
 
 See the [open issues](https://github.com/Federicoand98/AR-Dice/issues) for a list of proposed features (and known issues).
@@ -171,7 +173,7 @@ See the [open issues](https://github.com/Federicoand98/AR-Dice/issues) for a lis
 ### Future developments
 
 
-<!-- CONTRIBUTING
+<!-- CONTRIBUTING -->
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -183,39 +185,30 @@ Contributions are what make the open source community such an amazing place to b
 5. Open a Pull Request
 
 
-
-<!-- LICENSE
-## License
-
-Distributed under the MIT License. See [`LICENSE`](https://github.com/Federicoand98/AR-Dice/blob/main/LICENSE) for more information.
-
-
-
-<!-- CONTACT
+<!-- CONTACT -->
 ## Contact
 
-Federico Andrucci - federico.andrucci@gmail.com <br>
-Alex Gianelli - djgiane@yahoo.it <br>
-Lorenzo Righi - righi.lo@gmail.com<br>
+Andrea Castronovo - andrea.castronovo98@gmail.com <br>
+Andrea Manfroni   - andrea.manfroni@studio.unibo.it <br>
 
-Project Link: [https://github.com/Federicoand98/AR-Dice](https://github.com/Federicoand98/AR-Dice)
-
+Project Link: [https://github.com/AndreaCastronovo/AppTrail](https://github.com/AndreaCastronovo/AppTrail)
 
 
 
 
 
-<!-- MARKDOWN LINKS & IMAGES
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links
-[contributors-shield]: https://img.shields.io/github/contributors/Federicoand98/AR-Dice.svg?style=for-the-badge
-[contributors-url]: https://github.com/Federicoand98/AR-Dice/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Federicoand98/AR-Dice.svg?style=for-the-badge
-[forks-url]: https://github.com/Federicoand98/AR-Dice/network/members
-[stars-shield]: https://img.shields.io/github/stars/Federicoand98/AR-Dice.svg?style=for-the-badge
-[stars-url]: https://github.com/Federicoand98/AR-Dice/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Federicoand98/AR-Dice.svg?style=for-the-badge
-[issues-url]: https://github.com/Federicoand98/AR-Dice/issues
-[license-shield]: https://img.shields.io/github/license/Federicoand98/AR-Dice.svg?style=for-the-badge
-[license-url]: https://github.com/Federicoand98/AR-Dice/blob/ardice-main/LICENSE
-[github-shield]: https://img.shields.io/github/followers/Federicoand98.svg?style=social&label=Follow
-[github-url]: https://github.com/Federicoand98
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/AndreaCastronovo/AppTrail.svg?style=for-the-badge
+[contributors-url]: https://github.com/AndreaCastronovo/AppTrail/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/AndreaCastronovo/AppTrail.svg?style=for-the-badge
+[forks-url]: https://github.com/AndreaCastronovo/AppTrail/network/members
+[stars-shield]: https://img.shields.io/github/stars/AndreaCastronovo/AppTrail.svg?style=for-the-badge
+[stars-url]: https://github.com/AndreaCastronovo/AppTrail/stargazers
+[issues-shield]: https://img.shields.io/github/issues/AndreaCastronovo/AppTrail.svg?style=for-the-badge
+[issues-url]: https://github.com/AndreaCastronovo/AppTrail/issues
+[license-shield]: https://img.shields.io/github/license/AndreaCastronovo/AppTrail.svg?style=for-the-badge
+[license-url]: https://github.com/AndreaCastronovo/AppTrail/blob/ardice-main/LICENSE
+[github-shield]: https://img.shields.io/github/followers/AndreaCastronovo.svg?style=social&label=Follow
+[github-url]: https://github.com/AndreaCastronovo
