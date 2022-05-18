@@ -78,11 +78,8 @@
 **AppTrail** is an **Android app** to get information about StarTrail and will help you with settings of your camera.
 
 ## StarTrail:
-The STARTRAIL is a fotography type 
-Lo STARTRAIL è un tipo di fotografia in cui immortaliamo sul sensore il moto di rotazione terrestre, e quindi la macchina fotografica essendo solidale alla terra registrerà questo movimento tramite la cosiddetta “strisciata” delle stelle.
-Per realizzare questo tipo di foto si scattano una sequenza di immagini a lunga esposizione per poi andarle a "fondere" in un\'unica fotografia utilizzando software di elaborazione d\'immagine.
-Le stelle lasciano una traccia circolare attorno ad un punto che sembra quasi fisso: è la STELLA POLARE, infatti l’asse di rotazione terrestre passa all’incirca proprio in corrispondenza di questa stella;
-questo succede solo se vi trovate a fotografare a nord dell’equatore, mentre a sud dell’equatore non vedrete la stella polare. Se invece vi trovate all’equatore vedrete le stelle lasciare una strisciata dritta e parallela le une con le altre. Riassumendo, ecco cosa otteniamo puntando la fotocamera verso:
+STARTRAIL is a type of photography in which we immortalize the motion of the earth's rotation on the sensor and therefore the camera, being integral with the earth, will record this movement through the so-called "swipe" of the stars. To create this type of photo, a sequence of images is taken with a long exposure and then "merged" into a single photograph using the image processing software.
+The stars leave a circular trace around a point that seems almost fixed: POLAR STAR, in fact the earth's rotation axis passes approximately precisely in correspondence with this star; this only happens if you find yourself photographing north of the equator, while south of the equator you cannot see the North Star. If, on the other hand, you are at the equator, see the stars leave a straight and parallel streak with each other.
 
 
 ### Game Mode:
@@ -130,8 +127,7 @@ This settings page can let you modify the colors of your dice. Tap the number to
 
 ### Built With
 
-* [Visual Studio Code](https://code.visualstudio.com/download)
-* [Unity](https://unity.com/download)
+* [Android Studio](https://developer.android.com/studio)
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -140,19 +136,17 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 * Git
-* Visual Studio
-* Unity
+* Android Studio
 
 ### Installation
 
 1. Install Git at [Download Git](https://git-scm.com/download).
 2. Clone the repo.
    ```sh
-   git clone https://github.com/Federicoand98/AR-Dice
+   git clone https://github.com/AndreaCastronovo/AppTrail
    ```
-4. Install the latest version of Unity.
-5. Open the directory with Visual Studio.
-6. Unzip the 7z file in the Resources folder.
+4. Install the latest version of Android Studio.
+5. Open the directory with Android Studio.
 
 
 
@@ -160,15 +154,15 @@ To get a local copy up and running follow these simple steps.
 ## Usage
 
 To use the application:
-* Switch Unity build platform (iOS, Android)
-* Build and Run
+* Open app with Android Studio
+* Build and Run (Android)
 
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/Federicoand98/AR-Dice/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/AndreaCastronovo/AppTrail/issues) for a list of proposed features (and known issues).
 
 ### Future developments
 
