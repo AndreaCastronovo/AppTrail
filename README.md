@@ -86,14 +86,14 @@ The stars leave a circular trace around a point that seems almost fixed: POLAR S
 This is the ensemble of activity to informe users about the startrail and how to use the app, there are some example images of this photography type. At the same time there are two links of amazon to shop the requirment. Below you can view gif example.
 
 <p align="center">
-  <img src="" alt="logo" height="500" width="400"
+  <img src="Guida.gif" height="600" width="400"
 </p>
 
 ### Calcolatrice:
 Calcolatrice Mode allows users to get information about the settings of camera. With type of camera, focal length, minimum opening of diaphragm and the weather condition, the app return a table of settings.
 
 <p align="center">
-<img src="" align="center"/>
+<img src="Calcolatrice.jpg" align="center" height="600" width="400"/>
 </p>
 
 ### Built With
